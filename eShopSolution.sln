@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSolution.Data", "eShop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSolution.Application", "eShopSolution.Application\eShopSolution.Application.csproj", "{A036E34E-F2F5-4D86-A2B0-AE369DFD1670}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eShopSolution.WebApp", "eShopSolution.WebApp\eShopSolution.WebApp.csproj", "{750D05E7-8E21-48C9-9AEE-364088DFC642}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,5 +30,9 @@ Global
 		{A036E34E-F2F5-4D86-A2B0-AE369DFD1670}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A036E34E-F2F5-4D86-A2B0-AE369DFD1670}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A036E34E-F2F5-4D86-A2B0-AE369DFD1670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{750D05E7-8E21-48C9-9AEE-364088DFC642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{750D05E7-8E21-48C9-9AEE-364088DFC642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{750D05E7-8E21-48C9-9AEE-364088DFC642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{750D05E7-8E21-48C9-9AEE-364088DFC642}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
