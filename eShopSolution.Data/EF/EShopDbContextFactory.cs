@@ -12,10 +12,11 @@ public class EShopDbContextFactory : IDesignTimeDbContextFactory<EShopDbContext>
             .SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("appsettings.json")
             .Build();
-        string? connectionString = configuration.GetConnectionString("eShopSolutionDb");
         
+        string? connectionString = configuration.GetConnectionString("eShopSolutionDb");
+        Console.WriteLine(connectionString);
         var optionsBuilder = new DbContextOptionsBuilder<EShopDbContext>();
-        optionsBuilder.UseSqlServer("connectionString");
+        optionsBuilder.UseSqlServer(connectionString);
         return new EShopDbContext(optionsBuilder.Options);
     }
 }
